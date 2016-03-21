@@ -2,6 +2,8 @@
 
 ## Overview
 
+Demo : http://web.lazygyu.net/test/intro/
+
 This is a simple toy plugin. This plugin will add an effect when a page appears.
 
 ## Usage
@@ -22,6 +24,8 @@ $(selector).pageTransition(opt);
 ```
 
 ## 개요
+
+데모:  http://web.lazygyu.net/test/intro/
 
 간단한 페이지 도입 애니메이션 효과 플러그인입니다.
 
