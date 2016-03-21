@@ -9,7 +9,7 @@ This is a simple toy plugin. This plugin will add an effect when a page appears.
 ## Usage
 
 ```
-$(selector).pageTransition(opt);
+$.pageTransition(opt);
 ```
 
 ## Options
@@ -34,7 +34,7 @@ $(selector).pageTransition(opt);
 
 
 ```
-$(selector).pageTransition(opt);
+$.pageTransition(opt);
 ```
 
 ## 옵션
