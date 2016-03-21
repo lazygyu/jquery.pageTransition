@@ -3,7 +3,7 @@
 					var set = $.extend({
 							horizontal:40,
 							vertical:20,
-							max:1000,
+							max:1500,
 							bgColor:'black'
 						}, opt);
 					return this.each(function(){
