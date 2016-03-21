@@ -17,7 +17,7 @@ $(selector).pageTransition(opt);
   horizontal:40, // horizontal tiles count
   vertical:20, //vertical tiles count
   max:1000, //max transiting time limit (in milliseconds)
-  bgColor:$(this).css('backgroundColor') //background color
+  bgColor:'black' //background color
 }
 ```
 
@@ -40,6 +40,6 @@ $(selector).pageTransition(opt);
   horizontal:40, //가로 타일 개수
   vertical:20, //세로 타일 개수
   max:1000, //애니메이션 최대 지속시간 (밀리초)
-  bgColor:$(this).css('backgroundColor') //배경색
+  bgColor:'black' //배경색
 }
 ```
