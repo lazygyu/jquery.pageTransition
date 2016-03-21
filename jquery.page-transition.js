@@ -1,13 +1,13 @@
 (function($){
-				$.fn.pageTransition = function(){
-					return this.each(function(opt){
-						var set = $.extend({
+				$.fn.pageTransition = function(opt){
+					var set = $.extend({
 							horizontal:40,
 							vertical:20,
 							max:1000,
-							bgColor:$(this).css("backgroundColor")
+							bgColor:'black'
 						}, opt);
-
+					return this.each(function(){
+						
 						var tw = $(this).width();
 						var th = $(this).height();
 
